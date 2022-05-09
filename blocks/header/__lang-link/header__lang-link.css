@@ -10,9 +10,17 @@
     color: #FFFFFF;
 }
 
-.header__lang-link:first-child {
-    text-decoration: underline;
+.header__lang-link input[type=radio] {
+	display: none;
 }
+
+.header__lang-link input[type=radio]:checked + label {
+	text-decoration: underline;
+}
+
+/* .header__lang-link:first-child {
+    text-decoration: underline;
+} */
 
 @media screen and (max-width: 320px) {
     .header__lang-link {
