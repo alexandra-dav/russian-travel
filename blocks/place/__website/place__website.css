@@ -1,0 +1,8 @@
+.place__website {
+    grid-area: link;
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+    display: grid;
+    align-content: end;
+    margin: 0;
+}
