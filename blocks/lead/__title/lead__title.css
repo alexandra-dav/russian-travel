@@ -2,10 +2,6 @@
     width: 720px;
     height: 200px;
     margin: 0 auto 32px;
-    font-family: 'Inter';
-    /* правила для сглаживания шрифтовхром подобных */
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
     font-style: normal;
     font-size: 96px;
     font-weight: 900;

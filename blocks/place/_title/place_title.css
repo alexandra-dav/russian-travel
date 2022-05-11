@@ -2,16 +2,12 @@
     grid-area: title;
     margin: 0;
     text-align: left;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     /* or 106% */
     color: #FFFFFF;
-    /* правила для сглаживания шрифтовхром подобных */
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (max-width: 768px) {
