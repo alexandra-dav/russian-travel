@@ -1,4 +1,8 @@
 .cover__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     font-style: normal;
     font-weight: 900;
@@ -6,4 +10,15 @@
     line-height: 76px;
     /* or 106% */
     text-align: center;
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
 }
