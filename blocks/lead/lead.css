@@ -5,12 +5,12 @@
     margin: auto;
     margin-top: 56px;
     padding: 0;
-    width: 984px;
-    height: 1005px;
+    /* width: 984px; */
+    /* height: 1005px; */
     position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .lead {
         width: 928px;
         height: 962px;
@@ -29,4 +29,5 @@
         width: 320px;
         height: 406px;
     }
-}
+} 
+ */

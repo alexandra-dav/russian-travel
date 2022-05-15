@@ -7,4 +7,16 @@
     text-align: right;
     color: #FFFFFF;
     align-self: center;
+    margin: 0;
+    padding: 0;
+    padding-right: 2%;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copiright {
+        align-self: flex-start;
+        padding-left: 16px;
+        font-size: 14px;
+        line-height: 14px;
+    }
 }
