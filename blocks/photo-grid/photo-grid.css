@@ -6,22 +6,22 @@
     gap: 16px;
     margin: 0;
     margin-top: 92px;
-    padding: 0 calc((100vw - 1184px)/2);
+    padding: 0 calc((100% - 1184px)/2);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .photo-grid {
         padding: 0 calc((100vw - 928px)/2);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .photo-grid {
         padding: 0 calc((100vw - 720px)/2);
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .photo-grid {
         padding: 0 calc((100vw - 288px)/2);
     }
