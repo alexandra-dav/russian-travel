@@ -1,6 +1,5 @@
 .lead__title {
-
-
+    max-width: 720px;
     margin: 0 auto 32px;
     font-style: normal;
     font-size: 96px;
@@ -16,6 +15,6 @@
         margin-bottom: 16px;
         font-size: 40px;
         line-height: 44px;
- 
+        max-width: 300px;
     }
 }

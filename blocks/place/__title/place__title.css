@@ -8,6 +8,7 @@
     line-height: 76px;
     /* or 106% */
     color: #FFFFFF;
+    max-width: 400px;
 }
 
 @media screen and (max-width: 1023px) {

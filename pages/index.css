@@ -39,7 +39,7 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/footer_list.css);
+@import url(../blocks/footer/_list/footer_list.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__copiright/footer__copiright.css);
