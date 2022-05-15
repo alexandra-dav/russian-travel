@@ -48,6 +48,12 @@
 }
 
 @media screen and (max-width: 767px) {
+    .cover__overlay {
+        padding: 33px 0;
+    }  
+}
+
+@media screen and (max-width: 424px) {
     .cover__overlay{
         background-image: url(../../../images/cover/__backgroundx0-5.png);
         padding: 0;
