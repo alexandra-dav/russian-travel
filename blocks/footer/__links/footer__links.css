@@ -1,14 +1,12 @@
 .footer__links {
     text-decoration: none;
-    display: inline;
     margin: 0;
     padding: 0;
-    margin-right: 16px;
+    /* margin-right: 16px; */
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .footer__links {
-        display: block;
         margin-bottom: 32px;
     }
-}
+} */
