@@ -12,6 +12,7 @@
 Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
 
 **GitHub Pages**
+
 Ссылка на проект https://alexandra-dav.github.io/russian-travel/
 
 **Figma**
