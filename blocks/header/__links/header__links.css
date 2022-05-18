@@ -4,3 +4,9 @@
     gap: 18px;
     padding-right: 2%;
 }
+
+@media screen and (max-width: 424px) {
+    .header__links {
+        padding-right: 16px;
+    }
+}

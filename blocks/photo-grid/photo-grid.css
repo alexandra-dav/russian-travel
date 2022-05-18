@@ -17,12 +17,14 @@
 
 @media screen and (max-width: 1023px) {
     .photo-grid {
+        margin-top: 88px;
         padding: 0 calc((100vw - 720px)/2);
     }
 }
 
 @media screen and (max-width: 767px) {
     .photo-grid {
+        margin-top: 64px;
         padding: 0 calc((100vw - 288px)/2);
     }
 }
