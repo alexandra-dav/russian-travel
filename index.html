@@ -9,7 +9,14 @@
 <body class="page">
     <header class="header">
         <img class="header__logo" src="./images/logo-Russia.svg" alt="Логотип">
-        <ui class="header__links">
+        <ul class="header__links">
+            <li>
+                <a class="header__lang-link header__lang-link_active_ru" href="#">Ru</a>
+            </li>
+            <li>
+                <a class="header__lang-link header__lang-link_active_en" href="#">En</a>
+            </li>
+            
             <!-- <div class="header__lang-link">
                 <input type="radio" id="ru" value="ru" name="language" checked>
                 <label for="ru">Ru</label>
@@ -17,11 +24,8 @@
             <div class="header__lang-link">
                 <input type="radio" id="en" value="en" name="language">
                 <label for="en">En</label>
-            </div> -->
-            
-            <a class="header__lang-link header__lang-link_active_ru" href="#">Ru</a>
-            <a class="header__lang-link header__lang-link_active_en" href="#">En</a>
-        </ui>
+            </div> -->          
+        </ul>
     </header>
     
     <main>
@@ -69,7 +73,7 @@
             <img src="./images/photo-grid/__item-12.jpg" alt="Верхушки гор в тумане" class="photo-grid__item">
         </section>
     
-        <section class="places">
+        <section class="places" aria-label="Достопримечательности">
             <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <img src="./images/places/__image-park-kosa.png" alt="Куршская коса" class="place__img">
