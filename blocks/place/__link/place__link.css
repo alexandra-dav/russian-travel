@@ -12,7 +12,5 @@
 }
 
 .place__link:hover {
-    text-decoration-line: underline;
-    color: #FFFFFF;
     opacity: 0.8;
 }

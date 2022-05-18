@@ -8,6 +8,11 @@
     /* or 29px */
     color: #FFFFFF;
 }
+
+.place__paragraph-p:last-child {
+    margin-bottom: 0;
+} 
+
 @media screen and (max-width: 768px) {
     .place__paragraph-p {
         font-size: 16px;
