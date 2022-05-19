@@ -26,10 +26,11 @@
     height: 100%;
     opacity: 0.3;
     content: '';
+    /* Если задавать transition для элемента в спокойном состоянии, а не на элемент с ховер, то плавность будет не только при наведении, но и при отведении. */
+    transition: 0.8s;
 } 
 .cover__overlay:hover::before {
     opacity: 0.7;
-    transition: 0.8s;
 }
 
 
