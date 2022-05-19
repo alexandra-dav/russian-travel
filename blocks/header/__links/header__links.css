@@ -1,9 +1,12 @@
 .header__links {
+    margin: 0;
+    padding: 0;
+    padding-right: 32px;
+    padding-bottom: 4px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
-    padding-right: 2%;
 }
 
 @media screen and (max-width: 424px) {
