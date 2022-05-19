@@ -6,6 +6,16 @@
     max-height: 460px;
     min-height: 320px;
 }
+
+@media screen and (max-width: 1279px) {
+    .place__img {
+        max-width: 440px;
+        min-width: 320px;
+        max-height: 440px;
+        min-height: 320px;
+    }
+}
+
 /* 
 @media screen and (max-width: 1023px) {
     .place__img {
