@@ -28,5 +28,6 @@
     .header__lang-link {
         height: 20px;
         width: 22px;
+        font-size: 18px;
     }
 }
